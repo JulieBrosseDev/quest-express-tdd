@@ -1,11 +1,11 @@
 {
   "name": "quest-express-tdd",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,17 @@
     "mysql": "^2.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
-  }
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieBrosseDev/quest-express-tdd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JulieBrosseDev/quest-express-tdd/issues"
+  },
+  "homepage": "https://github.com/JulieBrosseDev/quest-express-tdd#readme",
+  "description": ""
 }
